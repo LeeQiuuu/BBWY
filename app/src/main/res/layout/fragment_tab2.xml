@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_tab2" />
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:id="@+id/ppLay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:clickable="false"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/bg_num" />
+
+                <TextView
+                    android:id="@+id/pp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="20"
+                    android:textColor="#FDF467"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/ppName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pp"
+                    android:layout_centerHorizontal="true"
+                    android:text="乒乓球"
+                    android:textColor="#FDF467"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/ppTime"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ppName"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/shape_blcak"
+                    android:gravity="center"
+                    android:text="12:30"
+                    android:textColor="@color/white"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:clickable="false"
+                android:visibility="gone"
+                android:id="@+id/jsLay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="80dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/bg_num" />
+
+                <TextView
+                    android:id="@+id/js"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="30"
+                    android:textColor="#FDF467"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/jsName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/js"
+                    android:layout_centerHorizontal="true"
+                    android:text="健身操"
+                    android:textColor="#FDF467"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/jsTime"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/jsName"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/shape_blcak"
+                    android:gravity="center"
+                    android:text="12:30"
+                    android:textColor="@color/white"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:clickable="false"
+                android:visibility="gone"
+                android:id="@+id/pbLay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/bg_num" />
+
+                <TextView
+                    android:id="@+id/pb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="60"
+                    android:textColor="#FDF467"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/pbName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pb"
+                    android:layout_centerHorizontal="true"
+                    android:text="跑步"
+                    android:textColor="#FDF467"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/pbTime"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pbName"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/shape_blcak"
+                    android:gravity="center"
+                    android:text="12:30"
+                    android:textColor="@color/white"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:clickable="false"
+                android:visibility="gone"
+                android:id="@+id/zqLay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="25dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/bg_num" />
+
+                <TextView
+                    android:id="@+id/zq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="20"
+                    android:textColor="#FDF467"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/zqName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zq"
+                    android:layout_centerHorizontal="true"
+                    android:text="早起"
+                    android:textColor="#FDF467"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/zqTime"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/zqName"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/shape_blcak"
+                    android:gravity="center"
+                    android:text="12:30"
+                    android:textColor="@color/white"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:clickable="false"
+                android:visibility="gone"
+                android:id="@+id/lqLay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="90dp"
+                android:layout_marginTop="80dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/bg_num" />
+
+                <TextView
+                    android:id="@+id/lq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="70"
+                    android:textColor="#FDF467"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/lqName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lq"
+                    android:layout_centerHorizontal="true"
+                    android:text="篮球"
+                    android:textColor="#FDF467"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/lqTime"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lqName"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/shape_blcak"
+                    android:gravity="center"
+                    android:text="12:30"
+                    android:textColor="@color/white"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:clickable="false"
+                android:visibility="gone"
+                android:id="@+id/tqLay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="100dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/bg_num" />
+
+                <TextView
+                    android:id="@+id/tq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="20"
+                    android:textColor="#FDF467"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tqName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tq"
+                    android:layout_centerHorizontal="true"
+                    android:text="早起"
+                    android:textColor="#FDF467"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/tqTime"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tqName"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/shape_blcak"
+                    android:gravity="center"
+                    android:text="12:30"
+                    android:textColor="@color/white"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lay"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/shape_white_20"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="每日活动时间5:00~23：00                           运动完即可领取金币哦~"
+                android:textColor="@color/text_color_gray"
+                android:textSize="10sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_pp" />
+
+                <LinearLayout
+                    android:id="@+id/lay1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/img1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:text="乒乓球"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:text="可产生"
+                        android:textColor="@color/text_color_999"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_jb"
+                        android:drawablePadding="3dp"
+                        android:text="20金币"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lay1"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/img1"
+                    android:text="运动1分钟可消耗20热量"
+                    android:textColor="@color/text_color_999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/bt1"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape_yellow"
+                    android:gravity="center"
+                    android:text="去运动"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="15dp">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_js" />
+
+                <LinearLayout
+                    android:id="@+id/lay2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/img2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:text="健身操"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:text="可产生"
+                        android:textColor="@color/text_color_999"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_jb"
+                        android:drawablePadding="3dp"
+                        android:text="30金币"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lay2"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/img2"
+                    android:text="运动5分钟可消耗50热量"
+                    android:textColor="@color/text_color_999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/bt2"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape_yellow"
+                    android:gravity="center"
+                    android:text="去运动"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="15dp">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_pb" />
+
+                <LinearLayout
+                    android:id="@+id/lay3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/img3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:text="跑步"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:text="可产生"
+                        android:textColor="@color/text_color_999"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_jb"
+                        android:drawablePadding="3dp"
+                        android:text="60金币"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lay3"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/img3"
+                    android:text="运动15分钟可消耗100量"
+                    android:textColor="@color/text_color_999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/bt3"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape_yellow"
+                    android:gravity="center"
+                    android:text="去运动"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="15dp">
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_qc" />
+
+                <LinearLayout
+                    android:id="@+id/lay4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/img4"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:text="闻鸡起舞"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:text="可产生"
+                        android:textColor="@color/text_color_999"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_jb"
+                        android:drawablePadding="3dp"
+                        android:text="20金币"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lay4"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/img4"
+                    android:text="运动10秒可消耗5能量"
+                    android:textColor="@color/text_color_999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/bt4"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape_yellow"
+                    android:gravity="center"
+                    android:text="去运动"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="15dp">
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_lq" />
+
+                <LinearLayout
+                    android:id="@+id/lay5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/img5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:text="打篮球"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:text="可产生"
+                        android:textColor="@color/text_color_999"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_jb"
+                        android:drawablePadding="3dp"
+                        android:text="70金币"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lay5"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/img5"
+                    android:text="运动20分钟可消耗160热量"
+                    android:textColor="@color/text_color_999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/bt5"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape_yellow"
+                    android:gravity="center"
+                    android:text="去运动"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp">
+
+                <ImageView
+                    android:id="@+id/img6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_zq" />
+
+                <LinearLayout
+                    android:id="@+id/lay6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/img6"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:text="踢足球"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:text="可产生"
+                        android:textColor="@color/text_color_999"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/ic_jb"
+                        android:drawablePadding="3dp"
+                        android:text="80金币"
+                        android:textColor="@color/red"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lay6"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/img6"
+                    android:text="运动30分钟可消耗280热量"
+                    android:textColor="@color/text_color_999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/bt6"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape_yellow"
+                    android:gravity="center"
+                    android:text="去运动"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

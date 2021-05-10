@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Base.iml" filepath="$PROJECT_DIR$/Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Base-master.iml" filepath="$PROJECT_DIR$/Base-master.iml" group="Base-master" />
+      <module fileurl="file://$PROJECT_DIR$/app/Base-master-app.iml" filepath="$PROJECT_DIR$/app/Base-master-app.iml" group="Base-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/base/Base-master-base.iml" filepath="$PROJECT_DIR$/base/Base-master-base.iml" group="Base-master/base" />
+      <module fileurl="file://$PROJECT_DIR$/base-adapter/Base-master-base-adapter.iml" filepath="$PROJECT_DIR$/base-adapter/Base-master-base-adapter.iml" group="Base-master/base-adapter" />
+      <module fileurl="file://$PROJECT_DIR$/base-util/Base-master-base-util.iml" filepath="$PROJECT_DIR$/base-util/Base-master-base-util.iml" group="Base-master/base-util" />
+      <module fileurl="file://$PROJECT_DIR$/view/Base-master-view.iml" filepath="$PROJECT_DIR$/view/Base-master-view.iml" group="Base-master/view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BuBuWeiYin-master.iml" filepath="$PROJECT_DIR$/.idea/modules/BuBuWeiYin-master.iml" group="BuBuWeiYin-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BuBuWeiYin-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BuBuWeiYin-master-app.iml" group="BuBuWeiYin-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/BuBuWeiYin-master-base.iml" filepath="$PROJECT_DIR$/.idea/modules/base/BuBuWeiYin-master-base.iml" group="BuBuWeiYin-master/base" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-adapter/BuBuWeiYin-master-base-adapter.iml" filepath="$PROJECT_DIR$/.idea/modules/base-adapter/BuBuWeiYin-master-base-adapter.iml" group="BuBuWeiYin-master/base-adapter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-util/BuBuWeiYin-master-base-util.iml" filepath="$PROJECT_DIR$/.idea/modules/base-util/BuBuWeiYin-master-base-util.iml" group="BuBuWeiYin-master/base-util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/view/BuBuWeiYin-master-view.iml" filepath="$PROJECT_DIR$/.idea/modules/view/BuBuWeiYin-master-view.iml" group="BuBuWeiYin-master/view" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-adapter/base-adapter.iml" filepath="$PROJECT_DIR$/base-adapter/base-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/base-util/base-util.iml" filepath="$PROJECT_DIR$/base-util/base-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view/view.iml" filepath="$PROJECT_DIR$/view/view.iml" group="Base-master/view" />
+    </modules>
+  </component>
+</project>

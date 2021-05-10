@@ -1,0 +1,1003 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:7435305368522332691",
+      "lastPropertyId": "16:1094210386851963589",
+      "name": "Fish",
+      "properties": [
+        {
+          "id": "1:8521829308410357300",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5706819154584523983",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:5861519724398135135",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:8428661856704855760",
+          "name": "name_zhcn",
+          "type": 9
+        },
+        {
+          "id": "5:514165484160134859",
+          "name": "price",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "6:1186328850439363298",
+          "name": "location",
+          "type": 9
+        },
+        {
+          "id": "7:9101817537114755292",
+          "name": "time_of_year_north",
+          "type": 9
+        },
+        {
+          "id": "8:1163750199818697701",
+          "name": "time_of_year_south",
+          "type": 9
+        },
+        {
+          "id": "9:2682529422712214333",
+          "name": "time_of_day",
+          "type": 9
+        },
+        {
+          "id": "10:4260379132479420165",
+          "name": "size",
+          "type": 9
+        },
+        {
+          "id": "11:681120146259327800",
+          "name": "shadow_size",
+          "type": 9
+        },
+        {
+          "id": "12:5351909583494579114",
+          "name": "rarity",
+          "type": 9
+        },
+        {
+          "id": "14:6307553934151549441",
+          "name": "owned",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "15:5116114080270573992",
+          "name": "collect",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "16:1094210386851963589",
+          "name": "pos",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:1317908730193814725",
+      "lastPropertyId": "9:5066150446495351540",
+      "name": "Album",
+      "properties": [
+        {
+          "id": "1:868864058816340924",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6917385743505820534",
+          "name": "id_zhcn",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:1584423716074229039",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:377843876899335877",
+          "name": "price",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "5:3617953160834997047",
+          "name": "name_zhcn",
+          "type": 9
+        },
+        {
+          "id": "6:7118988937536229533",
+          "name": "name_en",
+          "type": 9
+        },
+        {
+          "id": "7:54008944990643895",
+          "name": "owned",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "8:5514314754535030617",
+          "name": "collect",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "9:5066150446495351540",
+          "name": "pos",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:3172643053971349067",
+      "lastPropertyId": "11:3951037105306876020",
+      "name": "Artwork",
+      "properties": [
+        {
+          "id": "1:4871586684408690123",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6230018902191995265",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:1354417097979772124",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:5971437296200751695",
+          "name": "art_name",
+          "type": 9
+        },
+        {
+          "id": "5:6762981074281182269",
+          "name": "difference",
+          "type": 9
+        },
+        {
+          "id": "6:1526323144613064070",
+          "name": "has_fake",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "7:3483984561793941813",
+          "name": "size",
+          "type": 9
+        },
+        {
+          "id": "8:7296603387871933363",
+          "name": "owned",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "9:7408695578828248294",
+          "name": "price",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "10:422458621472718581",
+          "name": "collect",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "11:3951037105306876020",
+          "name": "pos",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:687037078488121611",
+      "lastPropertyId": "14:33074794244131438",
+      "name": "Cloth",
+      "properties": [
+        {
+          "id": "1:7828241858696044550",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1803124615414115340",
+          "name": "name_zhcn",
+          "type": 9
+        },
+        {
+          "id": "3:3944969445323152884",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:5023573254294683295",
+          "name": "name_en",
+          "type": 9
+        },
+        {
+          "id": "5:7576686053158680935",
+          "name": "color",
+          "type": 9
+        },
+        {
+          "id": "6:4681353648525140346",
+          "name": "sort",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "7:6017852856250844756",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "8:5374418771867880900",
+          "name": "owned",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "9:5557394490761471171",
+          "name": "price",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "10:8709357957290667054",
+          "name": "collect",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "11:4533572813967621115",
+          "name": "bean_recycle",
+          "type": 7,
+          "flags": 4
+        },
+        {
+          "id": "12:4570096788879248859",
+          "name": "box_recycle",
+          "type": 7,
+          "flags": 4
+        },
+        {
+          "id": "13:1073543432410835966",
+          "name": "name_jp",
+          "type": 9
+        },
+        {
+          "id": "14:33074794244131438",
+          "name": "pos",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:7973811930291187078",
+      "lastPropertyId": "12:4121883991031362505",
+      "name": "Diy",
+      "properties": [
+        {
+          "id": "1:5469482882074653676",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2507782232168887723",
+          "name": "name_zhcn",
+          "type": 9
+        },
+        {
+          "id": "3:854583556890149673",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:1373540092776112505",
+          "name": "name_en",
+          "type": 9
+        },
+        {
+          "id": "5:9049553082506473179",
+          "name": "name_jp",
+          "type": 9
+        },
+        {
+          "id": "6:2044141899999070469",
+          "name": "type",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "7:1115214807839685785",
+          "name": "how_to_get",
+          "type": 9
+        },
+        {
+          "id": "8:4043655033714843984",
+          "name": "cover_area",
+          "type": 9
+        },
+        {
+          "id": "9:9221012453084292462",
+          "name": "required_material",
+          "type": 9
+        },
+        {
+          "id": "10:8619459639216283979",
+          "name": "collect",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "11:1988940669999100817",
+          "name": "owned",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "12:4121883991031362505",
+          "name": "pos",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:1145386700022411496",
+      "lastPropertyId": "9:6742613828211380482",
+      "name": "Fossil",
+      "properties": [
+        {
+          "id": "1:3003989370451660539",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4700139758190420894",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:8491207363796890931",
+          "name": "name_zhcn",
+          "type": 9
+        },
+        {
+          "id": "4:1827930649699782852",
+          "name": "name_en",
+          "type": 9
+        },
+        {
+          "id": "5:283850796715442885",
+          "name": "price",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "6:8735404760973712905",
+          "name": "owned",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "7:1154446781355307219",
+          "name": "id_zhcn",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "8:8742422874404720482",
+          "name": "collect",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "9:6742613828211380482",
+          "name": "pos",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:520203313641771058",
+      "lastPropertyId": "14:3868133349096507263",
+      "name": "Furniture",
+      "properties": [
+        {
+          "id": "1:8272133959423988771",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3972457023548489093",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:4852953573671235903",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:4590324016925172462",
+          "name": "name_en",
+          "type": 9
+        },
+        {
+          "id": "5:6882767520180489237",
+          "name": "name_jp",
+          "type": 9
+        },
+        {
+          "id": "6:1352733462690051837",
+          "name": "size",
+          "type": 9
+        },
+        {
+          "id": "7:6330474807533218667",
+          "name": "how_to_get",
+          "type": 9
+        },
+        {
+          "id": "8:1135009333537745306",
+          "name": "type",
+          "type": 9
+        },
+        {
+          "id": "9:4088205373143189253",
+          "name": "price",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "10:2702733916218040764",
+          "name": "owned",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "11:309203505630003191",
+          "name": "owned_series",
+          "type": 9
+        },
+        {
+          "id": "12:426276554437447201",
+          "name": "collect",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "13:8476132277395414426",
+          "name": "collect_series",
+          "type": 9
+        },
+        {
+          "id": "14:3868133349096507263",
+          "name": "series",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "8:8880734595134973034",
+      "lastPropertyId": "4:8246464439120523931",
+      "name": "Goldentool",
+      "properties": [
+        {
+          "id": "1:9013762924597330805",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8183669398793696938",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:7164994336767476331",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:8246464439120523931",
+          "name": "how_to_get",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "9:4199969158963067019",
+      "lastPropertyId": "15:4208675678024763095",
+      "name": "Insect",
+      "properties": [
+        {
+          "id": "1:848622484575515675",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7458948322846931854",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:4288443210241298717",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:7637144854076383010",
+          "name": "name_zhcn",
+          "type": 9
+        },
+        {
+          "id": "5:7949632249634125868",
+          "name": "price",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "6:5680633736190481886",
+          "name": "location",
+          "type": 9
+        },
+        {
+          "id": "7:9198788375689790203",
+          "name": "time_of_year_north",
+          "type": 9
+        },
+        {
+          "id": "8:4874001810847817342",
+          "name": "time_of_year_south",
+          "type": 9
+        },
+        {
+          "id": "9:1189800744529415245",
+          "name": "time_of_day",
+          "type": 9
+        },
+        {
+          "id": "10:8217657577166189879",
+          "name": "size",
+          "type": 9
+        },
+        {
+          "id": "11:7074594677229848383",
+          "name": "weather",
+          "type": 9
+        },
+        {
+          "id": "12:3887367238322562602",
+          "name": "rarity",
+          "type": 9
+        },
+        {
+          "id": "13:4004277557286190484",
+          "name": "owned",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "14:1613924748862051329",
+          "name": "collect",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "15:4208675678024763095",
+          "name": "pos",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "10:8409365743098465344",
+      "lastPropertyId": "4:8856516551267022006",
+      "name": "Material",
+      "properties": [
+        {
+          "id": "1:525433264403702962",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7564265426074636966",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:6016622031609106623",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:8856516551267022006",
+          "name": "how_to_get",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "11:3212643143124133059",
+      "lastPropertyId": "11:4934834814737858712",
+      "name": "Npc",
+      "properties": [
+        {
+          "id": "1:3446169305683490489",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2785228935001334105",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:7193380468098252418",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:4928348866973116985",
+          "name": "gender",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "5:5806023763395147732",
+          "name": "name_zhcn",
+          "type": 9
+        },
+        {
+          "id": "6:3294986154548947812",
+          "name": "specie",
+          "type": 9
+        },
+        {
+          "id": "7:2476881625701070104",
+          "name": "specie_zhcn",
+          "type": 9
+        },
+        {
+          "id": "8:3221904613203440887",
+          "name": "service",
+          "type": 9
+        },
+        {
+          "id": "9:290999869595109549",
+          "name": "birthday",
+          "type": 9
+        },
+        {
+          "id": "10:1758644177578525387",
+          "name": "coffee",
+          "type": 9
+        },
+        {
+          "id": "11:4934834814737858712",
+          "name": "name_jp",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "12:3573628283494102708",
+      "lastPropertyId": "7:8512636346582825986",
+      "name": "Plant",
+      "properties": [
+        {
+          "id": "1:1499135229366600759",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2451292180390931695",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:325563575852956760",
+          "name": "price",
+          "type": 9
+        },
+        {
+          "id": "4:7207619470828540008",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "5:6804468767119965095",
+          "name": "special",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "6:2890699989910582704",
+          "name": "owned",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "7:8512636346582825986",
+          "name": "collect",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "13:268237877738348173",
+      "lastPropertyId": "5:3370682410724809631",
+      "name": "Shell",
+      "properties": [
+        {
+          "id": "1:7171550872422493575",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6706906817135173163",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:3604093125348518351",
+          "name": "price",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:165782719121396710",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "5:3370682410724809631",
+          "name": "name_zhcn",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "14:4401551477507651584",
+      "lastPropertyId": "3:612806150728231349",
+      "name": "Tip",
+      "properties": [
+        {
+          "id": "1:4026116073403016765",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7315349427758070461",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "3:612806150728231349",
+          "name": "content",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "15:2106721588454384664",
+      "lastPropertyId": "25:8254402927469892296",
+      "name": "Villager",
+      "properties": [
+        {
+          "id": "1:1960217435916851619",
+          "name": "pid",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8396947994828030045",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:3405859837666786108",
+          "name": "id",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "4:7412713176565846199",
+          "name": "name_zhcn",
+          "type": 9
+        },
+        {
+          "id": "5:8052671958684454485",
+          "name": "name_jp",
+          "type": 9
+        },
+        {
+          "id": "6:30507585055995491",
+          "name": "gender",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "7:8448886448613304852",
+          "name": "personality",
+          "type": 9
+        },
+        {
+          "id": "8:4142485261789446293",
+          "name": "species",
+          "type": 9
+        },
+        {
+          "id": "9:2154486622917416556",
+          "name": "species_zhcn",
+          "type": 9
+        },
+        {
+          "id": "10:3408272096685997024",
+          "name": "birthday",
+          "type": 9
+        },
+        {
+          "id": "11:8931984598601411830",
+          "name": "home_request",
+          "type": 9
+        },
+        {
+          "id": "12:6602442111659536124",
+          "name": "skill",
+          "type": 9
+        },
+        {
+          "id": "13:7439864494159687234",
+          "name": "goal",
+          "type": 9
+        },
+        {
+          "id": "14:574335017743827655",
+          "name": "coffee",
+          "type": 9
+        },
+        {
+          "id": "15:490912835029884278",
+          "name": "style",
+          "type": 9
+        },
+        {
+          "id": "16:8485157494634763961",
+          "name": "favor_song",
+          "type": 9
+        },
+        {
+          "id": "17:638883905209170922",
+          "name": "motto",
+          "type": 9
+        },
+        {
+          "id": "18:5600531531766871695",
+          "name": "mantra",
+          "type": 9
+        },
+        {
+          "id": "19:4363809945340090136",
+          "name": "style_zhcn",
+          "type": 9
+        },
+        {
+          "id": "20:5606692507644564562",
+          "name": "mantra_new",
+          "type": 9
+        },
+        {
+          "id": "21:8796003307668862523",
+          "name": "motto_new",
+          "type": 9
+        },
+        {
+          "id": "22:4713051507713253748",
+          "name": "skill_new",
+          "type": 9
+        },
+        {
+          "id": "23:3755845619281508809",
+          "name": "gooal_new",
+          "type": 9
+        },
+        {
+          "id": "24:5925225620799567410",
+          "name": "amiibo",
+          "type": 9
+        },
+        {
+          "id": "25:8254402927469892296",
+          "name": "pic_name",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "15:2106721588454384664",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    5260509905597330061
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
